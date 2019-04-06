@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <match></match>
+    <HelloWorld msg="Welcome to Your Vue.js App"></HelloWorld>
   </div>
 </template>
 
 <script>
+import match from './components/MatchHistory.vue'
+import HelloWorld from './components/HelloWorld.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    match,
+    HelloWorld
+  }
 }
 </script>
 
