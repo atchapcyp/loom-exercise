@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <match></match>
-    <HelloWorld msg="Welcome to Your Vue.js App"></HelloWorld>
+    <h1>Last 100 matches </h1>
+    <match/>
   </div>
 </template>
 
@@ -18,13 +18,6 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+ @import '~bulma/bulma';
 </style>

@@ -4,6 +4,8 @@
             <li v-for="match of matches" v-bind:key="match.id">
             <p><strong>{{match.status}}</strong></p>
             <p>{{match.winner_id}}</p>
+            <p>{{match.player1_id}}</p>
+            <p>{{match.player2_id}}</p>
             </li>
         </ul>
         <ul v-if="errors && errors.length">
