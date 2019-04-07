@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Last 100 matches </h1>
+    <h1>Recent matches </h1>
     <match/>
   </div>
 </template>
@@ -17,7 +17,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
- @import '~bulma/bulma';
-</style>
